@@ -1,0 +1,28 @@
+{
+    "name": "@ivoyant/component-cache",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "title": "Cache API",
+    "description": "",
+    "icon": "icon.png",
+    "scripts": {
+        "start": "ist s",
+        "build": "ist b",
+        "storybook": "ist storybook",
+        "prepublish": "ist b -u"
+    },
+    "files": [
+        "dist",
+        "icon.png"
+    ],
+    "author": "",
+    "license": "",
+    "peerDependencies": {
+    },
+    "dependencies": {
+        "jsonata": "^1.8.4"
+    },
+    "devDependencies": {
+        "@ivoyant/cli": "^1.1.2"
+    }
+}
